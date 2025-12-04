@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Car{
+    background-color: rgb(139, 62, 255);
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+}
+
+nav{
+    background-color: rgb(215, 0, 151);
+    padding: 6px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 65px;
+    margin-left: 65px;
+}
+
+nav a{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: rgb(30, 239, 173);
+}
+
+body{
+    font-family: 'Tahoma';
+    padding: 0;
+    margin: 0;
+    background-image: url("./assets/image/logo\ super\ car.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: calc(95%) bottom;
+    background-size: 175px;
+    padding-bottom: 120px;
+}
+
+h2{
+    color: rgb(144, 12, 225)
+    ;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgb(45, 18, 18);
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content{
+    width: 75%;
+    float: left;
+}
+
+.image{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    padding-left: 10px;
+}
+
+.SosialMedia{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer{
+    color: rgb(247, 244, 244);
+    padding: 35px;
+    background-color: rgb(220, 75, 23);
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo {
+    position: fixed;
+    bottom: 0;
+    right: 52px;
+    width: 179px;
+    height: 60px;
+    background: url("./assets/image/logo\ super\ car.png") no-repeat center/contain;
+}
